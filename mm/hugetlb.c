@@ -37,6 +37,9 @@
 #include <linux/userfaultfd_k.h>
 #include <linux/page_owner.h>
 #include "internal.h"
+#include <asm/tlbflush.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlb.h>
 
 int hugetlb_max_hstate __read_mostly;
 unsigned int default_hstate_idx;
