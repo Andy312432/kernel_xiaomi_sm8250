@@ -1715,4 +1715,4 @@ if ARCH_QCOM
 source "techpack/Kconfig"
 endif
 
-source "docker/Kconfig"
+source "arch/arm64/docker/Kconfig"
